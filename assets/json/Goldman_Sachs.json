@@ -1,0 +1,38 @@
+[
+  {
+    "id": 10,
+    "title": "Investment Banking Associate",
+    "domain": "Banking/Finance",
+    "company": "Goldman Sachs",
+    "description": "Support M&A transactions, financial modeling, and client presentations.",
+    "qualification": "MBA from top B-school, 2+ years in investment banking, strong Excel skills.",
+    "skills": ["Financial Modeling", "Valuation", "M&A", "Excel", "PowerPoint"],
+    "location": { "city": "Mumbai", "state": "Maharashtra", "country": "India" },
+    "salary": "₹30 LPA - ₹40 LPA",
+    "email": "recruit@gs.com",
+    "phone": "+91 88776 55443",
+    "website": "www.goldmansachs.com",
+    "contactPerson": "Aditya Khanna",
+    "datePosted": "March 23, 2026",
+    "expiryDate": "March 28, 2026",
+    "jobType": "Onsite"
+  },
+  {
+    "id": 1001,
+    "title": "Equity Research Analyst",
+    "domain": "Banking/Finance",
+    "company": "Goldman Sachs",
+    "description": "Analyze companies and industries, prepare investment reports, and support portfolio managers.",
+    "qualification": "CFA/CA/MBA Finance, 3+ years in equity research.",
+    "skills": ["Financial Analysis", "Valuation", "Bloomberg", "Excel", "Report Writing"],
+    "location": { "city": "Mumbai", "state": "Maharashtra", "country": "India" },
+    "salary": "₹20 LPA - ₹28 LPA",
+    "email": "equityresearch@gs.com",
+    "phone": "+91 88776 55444",
+    "website": "www.goldmansachs.com",
+    "contactPerson": "Vikram Joshi",
+    "datePosted": "March 26, 2026",
+    "expiryDate": "April 15, 2026",
+    "jobType": "Onsite"
+  }
+]

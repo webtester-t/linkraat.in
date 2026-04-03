@@ -1,0 +1,38 @@
+[
+  {
+    "id": 11,
+    "title": "5G Core Network Engineer",
+    "domain": "Telecom",
+    "company": "Ericsson",
+    "description": "Deploy and maintain 5G core network functions, troubleshoot and optimize performance.",
+    "qualification": "B.E. in Telecom/Electronics, 4+ years in telecom core networks, 5G certification a plus.",
+    "skills": ["5G Core", "VoLTE", "IMS", "Cloud Native", "Kubernetes"],
+    "location": { "city": "Bangalore", "state": "Karnataka", "country": "India" },
+    "salary": "₹15 LPA - ₹22 LPA",
+    "email": "careers@ericsson.com",
+    "phone": "+91 99228 77665",
+    "website": "www.ericsson.com",
+    "contactPerson": "Arjun Menon",
+    "datePosted": "March 22, 2026",
+    "expiryDate": "April 10, 2026",
+    "jobType": "Onsite"
+  },
+  {
+    "id": 1101,
+    "title": "Radio Access Network (RAN) Engineer",
+    "domain": "Telecom",
+    "company": "Ericsson",
+    "description": "Plan and optimize radio access networks, perform drive tests, and improve coverage.",
+    "qualification": "B.E. in Electronics, 3+ years in RAN engineering.",
+    "skills": ["RAN", "LTE", "5G NR", "Drive Test", "Optimization"],
+    "location": { "city": "Bangalore", "state": "Karnataka", "country": "India" },
+    "salary": "₹10 LPA - ₹14 LPA",
+    "email": "ran.careers@ericsson.com",
+    "phone": "+91 99228 77666",
+    "website": "www.ericsson.com",
+    "contactPerson": "Deepa Rajan",
+    "datePosted": "March 26, 2026",
+    "expiryDate": "April 18, 2026",
+    "jobType": "Onsite"
+  }
+]

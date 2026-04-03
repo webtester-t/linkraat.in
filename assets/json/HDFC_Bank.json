@@ -1,0 +1,38 @@
+[
+  {
+    "id": 3,
+    "title": "Banking Relationship Manager",
+    "domain": "Banking/Finance",
+    "company": "HDFC Bank",
+    "description": "Manage high-net-worth client relationships, cross-sell banking products, and ensure customer satisfaction.",
+    "qualification": "MBA in Finance, 3+ years in retail banking, excellent communication skills.",
+    "skills": ["Relationship Management", "Sales", "Financial Analysis", "CRM"],
+    "location": { "city": "Mumbai", "state": "Maharashtra", "country": "India" },
+    "salary": "₹8 LPA - ₹12 LPA",
+    "email": "careers@hdfcbank.com",
+    "phone": "+91 99887 66554",
+    "website": "www.hdfcbank.com",
+    "contactPerson": "Sneha Patel",
+    "datePosted": "March 16, 2026",
+    "expiryDate": "March 27, 2026",
+    "jobType": "Onsite"
+  },
+  {
+    "id": 301,
+    "title": "Credit Analyst",
+    "domain": "Banking/Finance",
+    "company": "HDFC Bank",
+    "description": "Evaluate loan applications, assess creditworthiness, and prepare credit reports.",
+    "qualification": "CA/CFA/MBA Finance, 2+ years in credit analysis.",
+    "skills": ["Credit Analysis", "Financial Modeling", "Risk Assessment", "Excel"],
+    "location": { "city": "Mumbai", "state": "Maharashtra", "country": "India" },
+    "salary": "₹7 LPA - ₹10 LPA",
+    "email": "credit@hdfcbank.com",
+    "phone": "+91 99887 66555",
+    "website": "www.hdfcbank.com",
+    "contactPerson": "Amit Joshi",
+    "datePosted": "March 20, 2026",
+    "expiryDate": "April 5, 2026",
+    "jobType": "Onsite"
+  }
+]

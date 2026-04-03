@@ -1,0 +1,38 @@
+[
+  {
+    "id": 6,
+    "title": "Full Stack Java Developer",
+    "domain": "IT/Software",
+    "company": "Infosys",
+    "description": "Design and develop end-to-end applications using Java, Spring Boot, and Angular.",
+    "qualification": "B.E./B.Tech, 5+ years in full stack development, strong OOP concepts.",
+    "skills": ["Java", "Spring Boot", "Angular", "MySQL", "REST APIs"],
+    "location": { "city": "Hyderabad", "state": "Telangana", "country": "India" },
+    "salary": "₹14 LPA - ₹20 LPA",
+    "email": "careers@infosys.com",
+    "phone": "+91 80088 99900",
+    "website": "www.infosys.com",
+    "contactPerson": "Karthik Reddy",
+    "datePosted": "March 20, 2025",
+    "expiryDate": "April 10, 2025",
+    "jobType": "Onsite"
+  },
+  {
+    "id": 601,
+    "title": "Cloud Engineer",
+    "domain": "IT/Software",
+    "company": "Infosys",
+    "description": "Design and manage cloud solutions on AWS and Azure.",
+    "qualification": "B.Tech, 3+ years cloud experience, AWS/Azure certifications.",
+    "skills": ["AWS", "Azure", "Terraform", "Docker", "Kubernetes"],
+    "location": { "city": "Bangalore", "state": "Karnataka", "country": "India" },
+    "salary": "₹12 LPA - ₹18 LPA",
+    "email": "cloud.careers@infosys.com",
+    "phone": "+91 80088 99901",
+    "website": "www.infosys.com",
+    "contactPerson": "Priya Singh",
+    "datePosted": "March 25, 2026",
+    "expiryDate": "April 20, 2026",
+    "jobType": "Onsite"
+  }
+]

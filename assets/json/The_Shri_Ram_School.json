@@ -1,0 +1,38 @@
+[
+  {
+    "id": 12,
+    "title": "Secondary School Teacher - Physics",
+    "domain": "School/Education",
+    "company": "The Shri Ram School",
+    "description": "Teach Physics to grades 9-12, prepare students for board exams, conduct lab sessions.",
+    "qualification": "B.Sc + B.Ed, 3+ years teaching experience, strong subject knowledge.",
+    "skills": ["Physics", "Lesson Planning", "Lab Management", "Student Assessment"],
+    "location": { "city": "Gurgaon", "state": "Haryana", "country": "India" },
+    "salary": "₹6 LPA - ₹9 LPA",
+    "email": "hr@shriramschool.edu",
+    "phone": "+91 124 4567890",
+    "website": "www.shriramschool.edu",
+    "contactPerson": "Meera Saxena",
+    "datePosted": "March 21, 2026",
+    "expiryDate": "March 27, 2026",
+    "jobType": "Remote"
+  },
+  {
+    "id": 1201,
+    "title": "Chemistry Teacher",
+    "domain": "School/Education",
+    "company": "The Shri Ram School",
+    "description": "Teach Chemistry to grades 9-12, conduct experiments, and mentor students.",
+    "qualification": "M.Sc Chemistry + B.Ed, 3+ years experience.",
+    "skills": ["Chemistry", "Lab Safety", "Lesson Planning", "Student Mentoring"],
+    "location": { "city": "Gurgaon", "state": "Haryana", "country": "India" },
+    "salary": "₹6 LPA - ₹8 LPA",
+    "email": "hr@shriramschool.edu",
+    "phone": "+91 124 4567891",
+    "website": "www.shriramschool.edu",
+    "contactPerson": "Sunil Gupta",
+    "datePosted": "March 25, 2026",
+    "expiryDate": "April 15, 2026",
+    "jobType": "Remote"
+  }
+]

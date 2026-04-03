@@ -1,0 +1,37 @@
+[
+  {
+    "id": 9,
+    "title": "Cybersecurity Analyst",
+    "domain": "IT/Software",
+    "company": "Palo Alto Networks",
+    "description": "Monitor security events, respond to incidents, and implement security controls.",
+    "qualification": "B.E. in CS/IT, 3+ years in security operations, CISSP or CEH preferred.",
+    "skills": ["Network Security", "SIEM", "Firewall", "Incident Response", "Python"],
+    "location": { "city": "Hyderabad", "state": "Telangana", "country": "India" },
+    "salary": "₹10 LPA - ₹15 LPA",
+    "email": "careers@paloaltonetworks.com",
+    "phone": "+91 98765 43219",
+    "website": "www.paloaltonetworks.com",
+    "contactPerson": "Neha Singh",
+    "datePosted": "March 24, 2026",
+    "expiryDate": "April 30, 2026"
+  },
+  {
+    "id": 901,
+    "title": "Threat Researcher",
+    "domain": "IT/Software",
+    "company": "Palo Alto Networks",
+    "description": "Research emerging threats, develop signatures, and contribute to threat intelligence.",
+    "qualification": "Bachelor's in CS/Cybersecurity, 2+ years in malware analysis.",
+    "skills": ["Malware Analysis", "Reverse Engineering", "Python", "Threat Intelligence"],
+    "location": { "city": "Bangalore", "state": "Karnataka", "country": "India" },
+    "salary": "₹12 LPA - ₹18 LPA",
+    "email": "threatresearch@paloaltonetworks.com",
+    "phone": "+91 98765 43220",
+    "website": "www.paloaltonetworks.com",
+    "contactPerson": "Arun Kumar",
+    "datePosted": "March 27, 2026",
+    "expiryDate": "April 25, 2026",
+    "jobType": "Onsite"
+  }
+]

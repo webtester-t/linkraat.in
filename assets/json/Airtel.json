@@ -1,0 +1,38 @@
+[
+  {
+    "id": 402,
+    "title": "Telecom Network Engineer",
+    "domain": "Telecom",
+    "company": "Airtel",
+    "description": "Deploy and maintain 4G/5G network infrastructure, troubleshoot issues, and optimize performance.",
+    "qualification": "B.E. in Electronics/Telecom, 3+ years experience in telecom networks, CCNA preferred.",
+    "skills": ["Networking", "5G", "Routing & Switching", "Network Optimization"],
+    "location": { "city": "Kathmandu ", "state": "Bagmati Province", "country": "Nepal" },
+    "salary": "₹7 LPA - ₹11 LPA",
+    "email": "network.jobs@airtel.com",
+    "phone": "+91 88997 76655",
+    "website": "www.airtel.in",
+    "contactPerson": "Amit Verma",
+    "datePosted": "March 12, 2025",
+    "expiryDate": "April 1, 2026",
+    "jobType": "Onsite"
+  },
+  {
+    "id": 401,
+    "title": "RF Planning Engineer",
+    "domain": "Telecom",
+    "company": "Airtel",
+    "description": "Plan and optimize radio frequency coverage for 4G/5G networks.",
+    "qualification": "B.E. in Electronics, 2+ years experience in RF planning.",
+    "skills": ["RF Planning", "Drive Test", "MapInfo", "Atoll"],
+    "location": { "city": "Gurgaon", "state": "Haryana", "country": "India" },
+    "salary": "₹6 LPA - ₹9 LPA",
+    "email": "rf.jobs@airtel.com",
+    "phone": "+91 88997 76656",
+    "website": "www.airtel.in",
+    "contactPerson": "Neha Sharma",
+    "datePosted": "March 18, 2026",
+    "expiryDate": "April 10, 2026",
+    "jobType": "Onsite"
+  }
+]

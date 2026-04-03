@@ -1,0 +1,38 @@
+[
+  {
+    "id": 2,
+    "title": "Data Scientist",
+    "domain": "IT/Software",
+    "company": "AnalyticsEdge",
+    "description": "Develop machine learning models, analyze large datasets, and deliver actionable insights for clients.",
+    "qualification": "M.Sc in Statistics/Data Science, 2+ years experience in Python, SQL, and ML frameworks.",
+    "skills": ["Python", "Machine Learning", "SQL", "Pandas", "TensorFlow"],
+    "location": { "city": "Pune", "state": "Maharashtra", "country": "India" },
+    "salary": "₹10 LPA - ₹15 LPA",
+    "email": "hr@analyticsedge.com",
+    "phone": "+91 87654 32109",
+    "website": "www.analyticsedge.com",
+    "contactPerson": "Rajesh Iyer",
+    "datePosted": "March 16, 2026",
+    "expiryDate": "March 30, 2026",
+    "jobType": "Onsite"
+  },
+  {
+    "id": 201,
+    "title": "Data Analyst",
+    "domain": "IT/Software",
+    "company": "AnalyticsEdge",
+    "description": "Create dashboards, analyze business data, and provide insights to stakeholders.",
+    "qualification": "B.Tech/B.Sc in Statistics, 2+ years experience with SQL and Tableau.",
+    "skills": ["SQL", "Tableau", "Excel", "Python"],
+    "location": { "city": "Pune", "state": "Maharashtra", "country": "India" },
+    "salary": "₹6 LPA - ₹9 LPA",
+    "email": "careers@analyticsedge.com",
+    "phone": "+91 87654 32110",
+    "website": "www.analyticsedge.com",
+    "contactPerson": "Sneha Kulkarni",
+    "datePosted": "March 22, 2026",
+    "expiryDate": "April 10, 2026",
+    "jobType": "Remote"
+  }
+]

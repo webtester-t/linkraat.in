@@ -1,0 +1,38 @@
+[
+  {
+    "id": 14,
+    "title": "Production Engineer",
+    "domain": "Manufacturing",
+    "company": "Tata Motors",
+    "description": "Optimize production processes, implement lean manufacturing, ensure quality standards.",
+    "qualification": "B.E. in Mechanical/Production, 3+ years in automotive manufacturing.",
+    "skills": ["Lean Manufacturing", "Six Sigma", "AutoCAD", "Process Optimization"],
+    "location": { "city": "Pune", "state": "Maharashtra", "country": "India" },
+    "salary": "₹7 LPA - ₹11 LPA",
+    "email": "hr@tatamotors.com",
+    "phone": "+91 20245 67890",
+    "website": "www.tatamotors.com",
+    "contactPerson": "Suresh Patil",
+    "datePosted": "March 19, 2026",
+    "expiryDate": "April 5, 2026",
+    "jobType": "Onsite"
+  },
+  {
+    "id": 1401,
+    "title": "Quality Assurance Engineer",
+    "domain": "Manufacturing",
+    "company": "Tata Motors",
+    "description": "Implement quality control processes, conduct audits, and drive continuous improvement.",
+    "qualification": "B.E. in Mechanical, 4+ years in QA in automotive industry.",
+    "skills": ["Quality Control", "ISO Standards", "Auditing", "Root Cause Analysis"],
+    "location": { "city": "Pune", "state": "Maharashtra", "country": "India" },
+    "salary": "₹8 LPA - ₹12 LPA",
+    "email": "qa@tatamotors.com",
+    "phone": "+91 20245 67891",
+    "website": "www.tatamotors.com",
+    "contactPerson": "Rajesh Kulkarni",
+    "datePosted": "March 23, 2026",
+    "expiryDate": "April 15, 2026",
+    "jobType": "Onsite"
+  }
+]

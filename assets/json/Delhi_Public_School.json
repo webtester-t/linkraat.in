@@ -1,0 +1,38 @@
+[
+  {
+    "id": 5,
+    "title": "Primary School Teacher",
+    "domain": "School/Education",
+    "company": "Delhi Public School",
+    "description": "Teach grades 1-5, develop lesson plans, and engage students in interactive learning.",
+    "qualification": "B.Ed, 2+ years teaching experience, fluent in English and Hindi.",
+    "skills": ["Teaching", "Classroom Management", "Curriculum Planning", "Child Psychology"],
+    "location": { "city": "Delhi", "state": "Delhi", "country": "India" },
+    "salary": "₹4 LPA - ₹6 LPA",
+    "email": "principal@dpsdelhi.edu",
+    "phone": "+91 11234 56789",
+    "website": "www.dpsdelhi.edu",
+    "contactPerson": "Meera Nair",
+    "datePosted": "March 5, 2026",
+    "expiryDate": "March 31, 2026",
+    "jobType": "Onsite"
+  },
+  {
+    "id": 501,
+    "title": "Mathematics Teacher",
+    "domain": "School/Education",
+    "company": "Delhi Public School",
+    "description": "Teach Mathematics to grades 9-12, prepare students for board exams.",
+    "qualification": "M.Sc in Mathematics + B.Ed, 3+ years experience.",
+    "skills": ["Mathematics", "Lesson Planning", "Exam Preparation", "Student Mentoring"],
+    "location": { "city": "Delhi", "state": "Delhi", "country": "India" },
+    "salary": "₹5 LPA - ₹7 LPA",
+    "email": "principal@dpsdelhi.edu",
+    "phone": "+91 11234 56790",
+    "website": "www.dpsdelhi.edu",
+    "contactPerson": "Ramesh Kumar",
+    "datePosted": "March 22, 2026",
+    "expiryDate": "April 15, 2026",
+    "jobType": "Remote"
+  }
+]

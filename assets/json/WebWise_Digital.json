@@ -1,0 +1,38 @@
+[
+  {
+    "id": 7,
+    "title": "Digital Marketing Specialist",
+    "domain": "Marketing",
+    "company": "WebWise Digital",
+    "description": "Plan and execute SEO/SEM campaigns, manage social media, and analyze performance metrics.",
+    "qualification": "Bachelor's in Marketing, 2+ years experience in digital marketing, Google Ads certified.",
+    "skills": ["SEO", "Google Ads", "Social Media Marketing", "Analytics"],
+    "location": { "city": "Chennai", "state": "Tamil Nadu", "country": "India" },
+    "salary": "₹5 LPA - ₹8 LPA",
+    "email": "hr@webwise.in",
+    "phone": "+91 98765 01234",
+    "website": "www.webwise.in",
+    "contactPerson": "Divya Krishnan",
+    "datePosted": "March 22, 2025",
+    "expiryDate": "April 5, 2025",
+    "jobType": "Onsite"
+  },
+  {
+    "id": 701,
+    "title": "Content Writer",
+    "domain": "Marketing",
+    "company": "WebWise Digital",
+    "description": "Create engaging content for blogs, social media, and websites.",
+    "qualification": "Bachelor's in English/Journalism, 2+ years writing experience.",
+    "skills": ["Content Writing", "SEO", "Blogging", "Copywriting"],
+    "location": { "city": "Chennai", "state": "Tamil Nadu", "country": "India" },
+    "salary": "₹3 LPA - ₹5 LPA",
+    "email": "content@webwise.in",
+    "phone": "+91 98765 01235",
+    "website": "www.webwise.in",
+    "contactPerson": "Ravi Menon",
+    "datePosted": "March 28, 2026",
+    "expiryDate": "April 20, 2026",
+    "jobType": "Onsite"
+  }
+]

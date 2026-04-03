@@ -1,0 +1,42 @@
+[
+  {
+    "questions": ["hi", "hello", "hey", "howdy", "greetings"],
+    "answers": [
+      "Hello! How can I help you today?",
+      "Hi there! How may I assist you?",
+      "Hey! What can I do for you?"
+    ]
+  },
+  {
+    "questions": ["how to apply", "apply process", "application", "how can i apply"],
+    "answers": [
+      "To apply, click the 'Apply Now' button on any job card. This will open your email client with a pre-filled subject.",
+      "Applying is easy: just click the 'Apply Now' button on the job you're interested in.",
+      "You can apply by hitting the 'Apply Now' button – it will open your email app ready to send."
+    ]
+  },
+  {
+    "questions": ["post a job", "post job", "how to post", "create a job"],
+    "answers": [
+      "Click the 'Post a Job' button at the top of the page, fill out the form, and submit. You'll be redirected to the payment page.",
+      "To post a job, use the 'Post a Job' button in the header. Complete the form and make the payment.",
+      "Posting a job is easy: click 'Post a Job', fill in the details, and proceed to payment."
+    ]
+  },
+  {
+    "questions": ["contact", "email", "phone", "support", "reach us"],
+    "answers": [
+      "You can reach us at support@skillmatch.in or call +91 98765 43210.",
+      "Our support email is support@skillmatch.in. Phone: +91 98765 43210.",
+      "For any queries, drop an email to support@skillmatch.in or call us at +91 98765 43210."
+    ]
+  },
+  {
+    "questions": ["expired", "expiry", "job expired", "job expiration"],
+    "answers": [
+      "Jobs expire 30 days after the posted date. Expired jobs are hidden from the list and show a 'Job has expired' label.",
+      "After 30 days, a job expires. It will no longer appear in the job listings.",
+      "Jobs automatically expire 30 days from the date they are posted."
+    ]
+  }
+]

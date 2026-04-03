@@ -1,0 +1,38 @@
+[
+  {
+    "id": 8,
+    "title": "Cloud Solutions Architect",
+    "domain": "IT/Software",
+    "company": "Amazon Web Services",
+    "description": "Design and implement cloud architectures, migrate workloads, and optimize costs for enterprise clients.",
+    "qualification": "B.Tech, 6+ years in cloud computing, AWS Certified Solutions Architect.",
+    "skills": ["AWS", "Terraform", "Kubernetes", "Python", "CloudFormation"],
+    "location": { "city": "Bangalore", "state": "Karnataka", "country": "India" },
+    "salary": "₹24 LPA - ₹32 LPA",
+    "email": "aws-careers@amazon.com",
+    "phone": "+91 99887 66551",
+    "website": "aws.amazon.com",
+    "contactPerson": "Rohan Gupta",
+    "datePosted": "March 25, 2026",
+    "expiryDate": "May 15, 2026",
+    "jobType": "Remote"
+  },
+  {
+    "id": 801,
+    "title": "Cloud Support Engineer",
+    "domain": "IT/Software",
+    "company": "Amazon Web Services",
+    "description": "Provide technical support for AWS customers, troubleshoot issues, and resolve complex problems.",
+    "qualification": "B.Tech, 3+ years experience in cloud support or systems administration.",
+    "skills": ["AWS", "Linux", "Networking", "Troubleshooting", "Python"],
+    "location": { "city": "Hyderabad", "state": "Telangana", "country": "India" },
+    "salary": "₹10 LPA - ₹15 LPA",
+    "email": "aws-support@amazon.com",
+    "phone": "+91 99887 66552",
+    "website": "aws.amazon.com",
+    "contactPerson": "Sonia Menon",
+    "datePosted": "March 28, 2026",
+    "expiryDate": "May 10, 2026",
+    "jobType": "Work from home"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 13,
+    "title": "Clinical Research Associate",
+    "domain": "Healthcare",
+    "company": "IQVIA",
+    "description": "Monitor clinical trials, ensure compliance with protocols and regulatory requirements.",
+    "qualification": "Life Sciences graduate, 2+ years in clinical research, ICH-GCP certified.",
+    "skills": ["Clinical Trials", "Regulatory Compliance", "Data Management", "GCP"],
+    "location": { "city": "Bangalore", "state": "Karnataka", "country": "India" },
+    "salary": "₹6 LPA - ₹9 LPA",
+    "email": "careers@iqvia.com",
+    "phone": "+91 99880 11223",
+    "website": "www.iqvia.com",
+    "contactPerson": "Kavita Rao",
+    "datePosted": "March 20, 2026",
+    "expiryDate": "April 20, 2026",
+    "jobType": "Onsite"
+  },
+  {
+    "id": 1301,
+    "title": "Biostatistician",
+    "domain": "Healthcare",
+    "company": "IQVIA",
+    "description": "Design clinical trial protocols, perform statistical analysis, and prepare reports.",
+    "qualification": "M.Sc in Statistics/Biostatistics, 3+ years in clinical research.",
+    "skills": ["SAS", "R", "Clinical Trials", "Statistical Analysis"],
+    "location": { "city": "Bangalore", "state": "Karnataka", "country": "India" },
+    "salary": "₹8 LPA - ₹12 LPA",
+    "email": "biostats@iqvia.com",
+    "phone": "+91 99880 11224",
+    "website": "www.iqvia.com",
+    "contactPerson": "Suresh Nair",
+    "datePosted": "March 26, 2026",
+    "expiryDate": "April 25, 2026",
+    "jobType": "Onsite"
+  }
+]

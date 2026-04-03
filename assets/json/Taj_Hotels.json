@@ -1,0 +1,38 @@
+[
+  {
+    "id": 16,
+    "title": "Hospitality Manager",
+    "domain": "Hospitality",
+    "company": "Taj Hotels",
+    "description": "Oversee hotel operations, ensure guest satisfaction, manage staff and budgets.",
+    "qualification": "Hotel Management degree, 6+ years in luxury hospitality.",
+    "skills": ["Guest Relations", "Operations Management", "Budgeting", "Staff Training"],
+    "location": { "city": "Delhi", "state": "Delhi", "country": "India" },
+    "salary": "₹8 LPA - ₹12 LPA",
+    "email": "careers@tajhotels.com",
+    "phone": "+91 11234 56788",
+    "website": "www.tajhotels.com",
+    "contactPerson": "Vikram Rajput",
+    "datePosted": "March 17, 2026",
+    "expiryDate": "March 30, 2026",
+    "jobType": "Onsite"
+  },
+  {
+    "id": 1601,
+    "title": "Front Office Executive",
+    "domain": "Hospitality",
+    "company": "Taj Hotels",
+    "description": "Greet guests, handle check-ins/outs, and provide exceptional service.",
+    "qualification": "Hotel Management degree, 2+ years in front office.",
+    "skills": ["Customer Service", "Reservation Systems", "Communication"],
+    "location": { "city": "Delhi", "state": "Delhi", "country": "India" },
+    "salary": "₹3 LPA - ₹4.5 LPA",
+    "email": "frontoffice@tajhotels.com",
+    "phone": "+91 11234 56789",
+    "website": "www.tajhotels.com",
+    "contactPerson": "Ritu Sharma",
+    "datePosted": "March 24, 2026",
+    "expiryDate": "April 15, 2026",
+    "jobType": "Onsite"
+  }
+]

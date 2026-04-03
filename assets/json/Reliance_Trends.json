@@ -1,0 +1,38 @@
+[
+  {
+    "id": 15,
+    "title": "Store Manager",
+    "domain": "Retail",
+    "company": "Reliance Trends",
+    "description": "Manage store operations, drive sales, train staff, and ensure customer satisfaction.",
+    "qualification": "Bachelor's degree, 5+ years retail management experience.",
+    "skills": ["Sales Management", "Team Leadership", "Inventory Control", "Customer Service"],
+    "location": { "city": "Mumbai", "state": "Maharashtra", "country": "India" },
+    "salary": "₹5 LPA - ₹8 LPA",
+    "email": "retail.careers@reliance.com",
+    "phone": "+91 98654 32100",
+    "website": "www.reliancetrends.in",
+    "contactPerson": "Amita Desai",
+    "datePosted": "March 18, 2026",
+    "expiryDate": "April 15, 2026",
+    "jobType": "Onsite"
+  },
+  {
+    "id": 1501,
+    "title": "Visual Merchandiser",
+    "domain": "Retail",
+    "company": "Reliance Trends",
+    "description": "Design and execute in-store displays, ensure brand standards, and enhance customer experience.",
+    "qualification": "Diploma in Visual Merchandising, 2+ years retail experience.",
+    "skills": ["Visual Merchandising", "Creativity", "Space Planning", "Brand Compliance"],
+    "location": { "city": "Mumbai", "state": "Maharashtra", "country": "India" },
+    "salary": "₹3 LPA - ₹5 LPA",
+    "email": "vm@reliancetrends.com",
+    "phone": "+91 98654 32101",
+    "website": "www.reliancetrends.in",
+    "contactPerson": "Preeti Singh",
+    "datePosted": "March 27, 2026",
+    "expiryDate": "April 20, 2026",
+    "jobType": "Onsite"
+  }
+]

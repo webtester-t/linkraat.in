@@ -1,0 +1,38 @@
+[
+  {
+    "id": 17,
+    "title": "Civil Site Engineer",
+    "domain": "Construction",
+    "company": "L&T Construction",
+    "description": "Supervise site activities, ensure quality and safety compliance, coordinate with subcontractors.",
+    "qualification": "B.E. in Civil, 4+ years in infrastructure projects.",
+    "skills": ["Site Supervision", "Quality Control", "AutoCAD", "Project Management"],
+    "location": { "city": "Chennai", "state": "Tamil Nadu", "country": "India" },
+    "salary": "₹6 LPA - ₹9 LPA",
+    "email": "hr@lntecc.com",
+    "phone": "+91 44245 67890",
+    "website": "www.lntecc.com",
+    "contactPerson": "Sundar Rajan",
+    "datePosted": "March 16, 2026",
+    "expiryDate": "March 26, 2026",
+    "jobType": "Onsite"
+  },
+  {
+    "id": 1701,
+    "title": "Project Manager - Civil",
+    "domain": "Construction",
+    "company": "L&T Construction",
+    "description": "Lead large-scale infrastructure projects, manage teams, budgets, and timelines.",
+    "qualification": "B.E. Civil, 10+ years experience, PMP preferred.",
+    "skills": ["Project Management", "Budgeting", "Team Leadership", "Risk Management"],
+    "location": { "city": "Chennai", "state": "Tamil Nadu", "country": "India" },
+    "salary": "₹18 LPA - ₹25 LPA",
+    "email": "projects@lntecc.com",
+    "phone": "+91 44245 67891",
+    "website": "www.lntecc.com",
+    "contactPerson": "Arjun Nair",
+    "datePosted": "March 20, 2026",
+    "expiryDate": "April 20, 2026",
+    "jobType": "Onsite"
+  }
+]
