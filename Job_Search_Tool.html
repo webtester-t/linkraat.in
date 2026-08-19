@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOB IN 30 DAYS™ - Job Search Tool</title>
+    <style>
+        /* Global styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+
+        h2 {
+            text-align: center;
+            padding: 20px 0;
+            color: #2b6777;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        input[type="text"], select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        input[type="submit"], input[type="button"] {
+            width: 48%;
+            background-color: #2b6777;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover, input[type="button"]:hover {
+            background-color: #4b9caa;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+        .row input, .row select {
+            flex: 1;
+            margin-right: 10px;
+        }
+
+        .row select:last-child {
+            margin-right: 0;
+        }
+
+        /* Error message styling */
+        .error {
+            color: red;
+            font-size: 14px;
+            display: none;
+        }
+
+        /* Responsive design */
+        @media screen and (max-width: 768px) {
+            form {
+                padding: 10px;
+            }
+
+            .row {
+                flex-direction: column;
+            }
+
+            .row input, .row select {
+                margin-right: 0;
+                width: 100%;
+            }
+
+            input[type="submit"] {
+                font-size: 14px;
+                padding: 12px;
+            }
+
+            input[type="button"] {
+                margin-top: 10px;
+            }
+        }
+    </style>
+
+    <script>
+        // Function to toggle fields based on the selected search option
+        function toggleFields() {
+            var searchOption = document.getElementById("searchOption").value;
+            var websiteField = document.getElementById("website");
+            var secondLocationField = document.getElementById("secondLocation");
+ 	    var skillsField = document.getElementById("skills");
+
+            if (searchOption === "jobs") {
+                websiteField.value = ""; // Clear the website field
+                websiteField.disabled = true;  // Disable the website field if 'Google Jobs' is selected
+                secondLocationField.value = ""; // Clear the second location field
+                secondLocationField.disabled = true; // Disable the second location field if 'Google Jobs' is selected
+ 		skillsField.value = ""; // Clear the skills field
+                skillsField.disabled = true;  // Disable the skills field if 'Google Jobs' is selected
+
+
+            } else {
+                websiteField.disabled = false; // Enable the website field if 'Google Search' is selected
+                secondLocationField.disabled = false; // Enable the second location field if 'Google Search' is selected
+		skillsField.disabled = false; // Enable the skills field if 'Google Search' is selected
+            }
+        }
+
+        function createQuery() {
+            // Get input values from the form fields
+            var website = document.getElementById("website").value;
+            var designation = document.getElementById("designation").value;
+            var firstLocation = document.getElementById("firstLocation").value;
+            var secondLocation = document.getElementById("secondLocation").value;
+            var salary = document.getElementById("salary").value;
+            var skills = document.getElementById("skills").value;
+            var experience = document.getElementById("experience").value;
+            var timeRange = document.getElementById("timeRange").value;
+
+            // Get the search option (Google Jobs or Google Search)
+            var searchOption = document.getElementById("searchOption").value;
+
+            // Validate the Designation field
+            if (!designation.trim()) {
+                document.getElementById("designationError").style.display = 'block';
+                return; // Prevent query creation if validation fails
+            } else {
+                document.getElementById("designationError").style.display = 'none';
+            }
+
+            // Validate the First Location field
+            if (!firstLocation.trim()) {
+                document.getElementById("firstLocationError").style.display = 'block';
+                return; // Prevent query creation if validation fails
+            } else {
+                document.getElementById("firstLocationError").style.display = 'none';
+            }
+
+            // Initialize an empty array to store query components
+            var queryParts = [];
+
+            // If website is provided and Strategic Google Search is selected, prepend it with 'site:' (no AND operator after)
+            if (website && searchOption === "normal") {
+                queryParts.push(`site:${website}`);
+            }
+
+            // Add non-empty fields to the query array
+            if (designation) {
+                queryParts.push(`"${designation}"`);
+            }
+
+            // Handle location fields with 'jobs' appended appropriately outside the quotes
+            if (firstLocation && secondLocation) {
+                queryParts.push(`"${firstLocation}" OR "${secondLocation}" jobs`);
+            } else if (firstLocation) {
+                queryParts.push(`"${firstLocation}" jobs`);
+            }
+
+            if (salary) {
+                queryParts.push(`"${salary}"`);
+            }
+            if (skills) {
+                queryParts.push(`"${skills}"`);
+            }
+            if (experience) {
+                queryParts.push(`"${experience}"`);
+            }
+
+            // Combine all query parts with "AND"
+            var query = queryParts.join(" AND ");
+
+            // Add "jobs" at the end if only designation is provided and Google Search is selected
+            if (searchOption === "normal" && designation && !firstLocation && !secondLocation && !salary && !skills && !experience) {
+                query += " jobs";
+            }
+
+            // Set the base search URL based on the selected search option
+            var googleSearchUrl;
+            if (searchOption === "jobs") {
+                googleSearchUrl = "https://www.google.com/search?q=" + encodeURIComponent(query) + "&ibp=htl;jobs";  // Google Jobs
+            } else {
+                googleSearchUrl = "https://www.google.com/search?q=" + encodeURIComponent(query);  // Google Search
+            }
+
+            // Add time range filter if specified
+            if (timeRange !== "any") {
+                googleSearchUrl += "&tbs=" + timeRange;
+
+                // Ensure time range filter is applied correctly in Google Jobs
+                if (searchOption === "jobs") {
+                    googleSearchUrl += "&ibp=htl;jobs";
+                }
+            }
+
+            // Redirect to Google with the appropriate search query in the same tab
+           
+window.open(googleSearchUrl, "_blank");
+
+	
+
+        }
+
+        function clearAllFields() {
+            document.getElementById("website").value = "";
+            document.getElementById("designation").value = "";
+            document.getElementById("firstLocation").value = "";
+            document.getElementById("secondLocation").value = "";
+            document.getElementById("salary").value = "";
+            document.getElementById("experience").value = "";
+            document.getElementById("skills").value = "";
+            document.getElementById("searchOption").value = "jobs";
+            document.getElementById("timeRange").value = "any";
+            toggleFields(); // Reset the fields' enable/disable state
+
+            // Hide error messages
+            document.getElementById("designationError").style.display = 'none';
+            document.getElementById("firstLocationError").style.display = 'none';
+        }
+    </script>
+
+</head>
+<body>
+
+    <h2>JOB IN 30 DAYS™</h2>
+
+    <form onsubmit="createQuery(); return false;">
+    
+        <h3 align="center">Job Search Made Easy with AI</h3>
+
+        <!-- Google Search Option and Sort by in the same row -->
+        <div class="row">
+            <select id="searchOption" onchange="toggleFields()">
+                <option value="jobs" selected>Google Jobs</option>
+                <option value="normal">Strategic Search</option>
+            </select>
+
+            <select id="timeRange" name="timeRange">
+                <option value="any">Sort by Anytime</option>
+                <option value="qdr:h">Past hour</option>
+                <option value="qdr:d">Past 24 hours</option>
+                <option value="qdr:w">Past week</option>
+                <option value="qdr:m">Past month</option>
+                <option value="qdr:y">Past year</option>
+            </select>
+        </div>
+
+        <!-- Website field -->
+        <input type="text" id="website" name="website" placeholder="Website e.g. linkedin.com/jobs (Strategic Search Only)" disabled>
+
+        <!-- Designation (mandatory field) -->
+        <input type="text" id="designation" name="designation" placeholder="Designation e.g. Sales Manager (Required)">
+        <div id="designationError" class="error">Designation is mandatory.</div>
+
+       
+ <!-- First and Alternative Location fields in one row -->
+        <div class="row">
+            <input type="text" id="firstLocation" name="first location" placeholder="Prefered City* (Required)">
+<!-- Alternative Location field initially disabled -->
+ <input type="text" id="secondLocation" name="secondLocation" placeholder="2nd City (Strategic Search Only) " disabled>
+<div id="firstLocationError" class="error">Prefered City is required.</div>
+  </div>
+
+
+        <!-- Salary and Experience in one row -->
+        <div class="row">
+            <input type="text" id="salary" name="salary" placeholder="Salary e.g. 9LPA or 900000 (Optional)">
+            <input type="text" id="experience" name="experience" placeholder="Experience e.g. 8 years (Optional)">
+        </div>
+
+        <!-- Skills -->
+        <input type="text" id="skills" name="skills" placeholder="Key Skills e.g. Digital Marketing (Strategic Search Only)" disabled>
+
+        <!-- Submit and Clear buttons -->
+        <div class="row">
+            <input type="submit" value="Show My Dream Jobs">
+            <input type="button" value="Reset" onclick="clearAllFields()">
+        </div>
+    
+       </form>
+ <footer>
+            <p style="font-size:14px" align="center">Copyright <b>JOB IN 30 DAYS™</b> © 2024 - Built with Artificial Intelligence.</p>
+        </footer>
+
+</body>
+</html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
